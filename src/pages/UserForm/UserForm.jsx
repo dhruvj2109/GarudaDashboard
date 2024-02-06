@@ -23,6 +23,7 @@ const UserForm = () => {
 		};
 		dispatchFormAction({ type: 'DASHBOARD_DATA', payload: obj });
 		navigate('/');
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [name, email, phone, role]);
 
 	return (
