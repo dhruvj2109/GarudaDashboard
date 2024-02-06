@@ -1,0 +1,51 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    // padding: 0 10px;
+
+    h2 {
+        margin-top: 0;
+        padding-left: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    &--item-active {
+        padding: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #efeeee;
+
+        .icon {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    &--item {
+        padding: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .icon {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    &--item:hover {
+        background-color: rgb(214, 214, 214);
+    }
+}

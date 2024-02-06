@@ -1,0 +1,25 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    &-layout {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: calc(100% - 50px);
+
+        &--left {
+            min-width: 250px;
+            width: 20%;
+            max-width: 350px;
+        }
+
+        &--right {
+            padding: 20px;
+            flex: 1;
+            background-color: rgb(236, 234, 234);
+        }
+
+    }
+}
