@@ -8,7 +8,7 @@ import { FaTrash } from "react-icons/fa";
 
 
 const Dashboard = () => {
-	const { state: formCtx, dispatch: dispatchFormAction } = useContext(FormContext);
+	const { state: formCtx } = useContext(FormContext);
     const tableHedaer = useMemo(() => ['Name', 'Email', 'Phone', 'Role', 'Action'], []);
     
     console.log('formCtx', formCtx.dashboardData)

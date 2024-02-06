@@ -1,4 +1,4 @@
-import React, { useCallback, useMemo } from 'react';
+import React, { useMemo } from 'react';
 import styles from './Menu.module.scss';
 import { LuLayoutDashboard } from 'react-icons/lu';
 import { GoProjectRoadmap } from 'react-icons/go';
